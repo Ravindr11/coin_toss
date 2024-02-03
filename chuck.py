@@ -106,7 +106,7 @@ while not game_exit:
                 toss()
 
         elif event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_RETURN:
+            if event.key == pygame.K_RETURN or event.key == pygame.K_SPACE:
                 toss()
       
     pygame.display.update()
