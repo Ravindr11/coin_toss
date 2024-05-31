@@ -72,7 +72,7 @@ except:
 image_count = 26
 toss_animation = []
 for i in range(image_count):
-    image = pygame.image.load(f"toss_animation\\frame_{i}_delay-0.1s.gif")
+    image = pygame.image.load(f"images\\frame_{i}_delay-0.1s.gif")
     toss_animation.append(image)
 
 del image
